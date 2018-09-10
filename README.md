@@ -1,6 +1,6 @@
 # Ruby on Rails sample application
 
-This is the sample application for Ruby on Rails 
+This is the sample application for Ruby on Rails
 
 ## License
 
@@ -14,6 +14,12 @@ To get started with the app, clone the repo and then install the needed gems:
 
 ```
 $ bundle install --without production
+```
+
+To create database in postgresql
+
+```
+$ rails db:create:all
 ```
 
 Next, migrate the database:
